@@ -138,6 +138,11 @@ form h5 {
 
     /* .product mobile CSS */
 
+    .products, .product{
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+
     aside {
         position: relative;
         margin-bottom: 30px;
