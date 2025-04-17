@@ -143,6 +143,18 @@ form h5 {
         max-width: 100%;
     }
 
+    .product{
+        grid-template-areas: 
+            'thumbnail'
+            'product-title'
+            'product-description'
+            'product-price';
+        margin: .5rem 0;
+        border: none;
+        border-radius: 0;
+        border-block: 3px double #aaa;
+    }
+
     aside {
         position: relative;
         margin-bottom: 30px;
